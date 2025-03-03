@@ -1,25 +1,23 @@
 # File: /DBToABS/README.md
 
-# Flask Database to Azure Blob Storage
+# SQL Database to Azure Blob Storage
 
 This project is a Flask web application that allows users to export data from a database to Azure Blob Storage. Users can input their database and Azure Blob Storage details through a web form, and the application will handle the data export process.
 
 ## Project Structure
 
 ```
-flask-db-to-abs
-├── src
-│   ├── app.py               # Entry point of the Flask application
-│   ├── db_to_abs.py         # Core logic for exporting data to Azure Blob Storage
-│   ├── templates
-│   │   ├── base.html        # Base HTML template
-│   │   └── index.html       # Main HTML template for user input
-│   ├── static
-│   │   └── styles
-│   │       └── main.css     # CSS styles for the web application
-│   └── config.py            # Configuration settings for the Flask application
+DBToABS
+|
+├── app.py               # Entry point of the Flask application
+├── db_to_abs.py         # Core logic for exporting data to Azure Blob Storage
+├── templates
+│   ├── base.html        # Base HTML template
+│   └── index.html       # Main HTML template for user input
+├── static
+│   └── styles
+│       └── main.css     # CSS styles for the web application
 ├── requirements.txt          # Project dependencies
-├── .env                      # Environment variables
 ├── .gitignore                # Files to ignore in Git
 └── README.md                 # Project documentation
 ```
@@ -29,7 +27,7 @@ flask-db-to-abs
 1. **Clone the Repository**
    ```bash
    git clone <repository-url>
-   cd flask-db-to-abs
+   cd DBToABS
    ```
 
 2. **Create a Virtual Environment**
@@ -43,12 +41,9 @@ flask-db-to-abs
    pip install -r requirements.txt
    ```
 
-4. **Configure Environment Variables**
-   - Create a `.env` file in the root directory and add your database and Azure credentials.
-
 5. **Run the Application**
    ```bash
-   python src/app.py
+   python app.py
    ```
 
 6. **Access the Application**
