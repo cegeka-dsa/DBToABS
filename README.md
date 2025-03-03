@@ -41,12 +41,12 @@ DBToABS
    pip install -r requirements.txt
    ```
 
-5. **Run the Application**
+4. **Run the Application**
    ```bash
    python app.py
    ```
 
-6. **Access the Application**
+5. **Access the Application**
    Open your web browser and go to `http://127.0.0.1:5000`.
 
 ## Hosting on Azure
@@ -57,10 +57,7 @@ DBToABS
 2. **Deploy the Application**
    - Use Azure CLI or Git to deploy your application to the Azure Web App.
 
-3. **Configure Application Settings**
-   - In the Azure Portal, set the environment variables in the Application Settings section.
-
-4. **Access Your Web App**
+3. **Access Your Web App**
    - Once deployed, you can access your web app through the URL provided by Azure.
 
 ## Usage
